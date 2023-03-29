@@ -1,0 +1,58 @@
+.mealDetails {
+    width: 100%;
+}
+
+.mealDetails__main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.mealDetails__img img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.mealDetails_ingredients span {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.mealDetails_ingredients div {
+    margin-bottom: 10px;
+}
+
+.mealDetails__heading {
+    display: inline-block;
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: var(--fourth-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.mealDetails__instructions {
+    margin: 30px 60px;
+}
+
+.mealDetails__instructions p {
+    letter-spacing: 0.3px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+@media (max-width: 500px) {
+    .mealDetails__main {
+        flex-direction: column;
+    }
+
+    .mealDetails_ingredients, .mealDetails__instructions {
+        margin: 30px 50px;
+    }
+
+    .mealDetails__img {
+        margin: 0 20px;
+    }
+}

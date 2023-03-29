@@ -1,0 +1,33 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    color: var(--fourth-color);
+    margin-bottom: 20px;
+}
+
+.input label {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.input input {
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 1px solid var(--third-color);
+    min-width: 300px;
+}
+
+.input span {
+    color: rgb(235, 48, 48);
+    display: none;
+}
+
+input:invalid[focused='true'] ~ span {
+    display: block;
+}
+
+input:invalid[focused='true'] {
+    border: 1px solid rgb(235, 48, 48);
+}

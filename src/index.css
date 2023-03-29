@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --primary-color: #7286D3;
+  --secondary-color: #8EA7E9;
+  --third-color: #E5E0FF;
+  --fourth-color: #FFF2F2;
+
+  --primary-font: 'Permanent Marker', cursive;
+  --secondary-font: 'Poppins', sans-serif;
+}

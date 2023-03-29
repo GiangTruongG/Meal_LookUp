@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "username": "TruongGiang",
+      "email": "truonggiang@gmail.com",
+      "password": "Quoclui96!",
+      "confirmPassword": "Quoclui96!",
+      "id": 1,
+      "favoriteMeals": [
+        "52848",
+        "52969",
+        "53009"
+      ]
+    },
+    {
+      "username": "JasonBui",
+      "email": "jasonbui@gmail.com",
+      "password": "Quoclui96!",
+      "confirmPassword": "Quoclui96!",
+      "id": 2,
+      "favoriteMeals": [
+        "52878",
+        "52997"
+      ]
+    }
+  ]
+}
